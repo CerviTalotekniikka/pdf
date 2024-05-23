@@ -4,6 +4,25 @@ This fork of rsc.io/pdf extends the package API with:
 
   - Implement the method GetPlainText() from object Page. Use to get plain text content (without format)
 
+## Installing this fork
+
+In your project, install via go modules:
+
+```
+go get github.com/CerviTalotekniikka/pdf@latest
+```
+
+## Release instructions
+
+After making changes, please tag the commit with semantic version prefixed with 'v'
+
+```
+git tag
+git tag v0.2.0
+git push
+git push --tags
+```
+
 ## How to read all text from PDF:
 
 1. Get the library with command `go get -u github.com/ledongthuc/pdf`
